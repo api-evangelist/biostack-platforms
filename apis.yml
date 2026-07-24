@@ -1,8 +1,30 @@
 aid: biostack-platforms
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biostack-platforms.png
 name: Biostack Platforms
-description: Biostack Platforms is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  BioStack Platforms is a San Francisco healthcare-data company (Y Combinator
+  Spring 2026, backed by Afore Capital, Verdict, Heroic VC, and angels from Meta
+  and Google DeepMind) building the data engine for healthcare and drug-discovery
+  AI. It sources and structures ML-ready biomedical datasets — longitudinal,
+  multimodal data across EHR, medical imaging, ECGs, labs, clinical notes, audio,
+  and outcomes — and turns real clinical and preclinical workflows into training
+  environments, evals, reward functions, and verifiable tasks for reinforcement
+  learning and post-training. It serves biotech startups, frontier AI labs, and
+  healthcare data companies. At profiling time BioStack publishes a marketing
+  site and blog only; it exposes no public API, developer portal, OpenAPI, or
+  other machine-readable developer surface, so this remains an identity-only
+  profile in the API Evangelist network pending a public developer offering.
 url: https://raw.githubusercontent.com/api-evangelist/biostack-platforms/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,41 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Machine Learning
+- Data
+- Life Sciences
+- Drug Discovery
 apis: []
+common:
+- type: DomainSecurity
+  url: security/biostack-platforms-domain-security.yml
+- type: Website
+  url: https://www.getbiostack.com/
+- type: About
+  url: https://www.getbiostack.com/about
+- type: Blog
+  url: https://www.getbiostack.com/blog
+- type: Support
+  url: https://www.getbiostack.com/contact
+- type: SignUp
+  url: https://www.getbiostack.com/get-started
+- type: Twitter
+  url: https://x.com/getbiostack
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
