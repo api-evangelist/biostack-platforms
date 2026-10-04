@@ -51,7 +51,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data
 - Life Sciences
 - Drug Discovery
@@ -63,6 +63,7 @@ tags_raw:
 - Data
 - Life Sciences
 - Drug Discovery
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
